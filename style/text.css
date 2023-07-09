@@ -1,0 +1,54 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}      
+    
+
+.header {
+    /* background-color: #fff8f3; */
+    background: url('../images/banner/banner2.png');
+    /* background-repeat: no-repeat; */
+    width: 1600px;
+    height: 809px;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    
+}
+.banner {
+    /* padding: 150px 0px 30px 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right; 
+    align-items: center; 
+    max-width: 400px;
+    position: absolute;
+    right: 300px;
+    top: 200px;
+   
+
+
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #151414;
+    margin-bottom: 0;
+}
+.profile-pic{
+    
+}
+.about{
+    display: flex; 
+    text-decoration: none;
+    justify-content: space-between;
+}
